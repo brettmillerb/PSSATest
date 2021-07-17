@@ -12,6 +12,6 @@
     "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
     "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
     "powershell.codeFormatting.whitespaceInsideBrace": true,
-    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzer/PSScriptAnalyzerSettings.psd1",
     "powershell.scriptAnalysis.enable": true,
 }
