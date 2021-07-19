@@ -1,10 +1,10 @@
 {
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.trimAutoWhitespace": true,
-    "editor.renderFinalNewline": false,
+    "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
+    "editor.renderFinalNewline": false,
     "powershell.codeFormatting.addWhitespaceAroundPipe": true,
     "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
     "powershell.codeFormatting.whitespaceAfterSeparator": true,

@@ -1,9 +1,17 @@
 Get-ChildItem -Path /users/brett.miller/Desktop -Filter *.jpg -File
 
 Get-ChildItem -Path /users/brett.miller/Desktop `
--Filter *.jpg `
--File
+    -Filter *.jpg `
+    -File
 
-gci -Path /Users/brett.miller/Desktop
+Get-ChildItem -Path /Users/brett.miller/Desktop
 
-gci -Path /Users/brett.miller/Desktop | ? name -match ''
+Get-ChildItem -Path /Users/brett.miller/Desktop | Where-Object name -Match ''
+
+function FunctionName {
+    param (
+        [switch]$switch = $true
+    )
+    $switch
+
+}
