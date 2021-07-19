@@ -10,7 +10,7 @@
 				"path": "zsh"
 			},
 			"pwsh": {
-				"path": "pwsh",
+				"path": "/usr/bin/pwsh",
 				"icon": "terminal-powershell"
 			}
 		},
